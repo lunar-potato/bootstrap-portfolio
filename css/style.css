@@ -36,8 +36,8 @@ h4,
 h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  letter-spacing: 1px;
+    font-weight: 200;
+    letter-spacing: 1px;
 }
 
 p {
@@ -48,4 +48,26 @@ p {
 
 section {
   padding: 100px 0;
+}
+
+.hero-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/moon-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+    background-position: center;
+    position: relative;
+}
+
+.hero-banner h1 {
+    color: #e5c890;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.hero-banner p {
+    color: white;
+    font-size: 32px;
+    text-align: center;
 }
