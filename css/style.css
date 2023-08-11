@@ -6,6 +6,7 @@ body {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #303446;
 }
 
 a {
@@ -54,8 +55,9 @@ section {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/moon-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50%;
     background-position: center;
+    height: 50%;
+    margin-bottom: 0 !important;
     position: relative;
 }
 
@@ -63,11 +65,15 @@ section {
     color: #e5c890;
     font-size: 72px;
     text-align: center;
-    padding-top: 30px;
 }
 
 .hero-banner p {
     color: white;
     font-size: 32px;
     text-align: center;
+}
+
+.navbar {
+    background-color: #232634 !important;
+    border-bottom: white 3px solid;
 }
