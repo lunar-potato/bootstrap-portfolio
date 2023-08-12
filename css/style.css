@@ -136,3 +136,14 @@ section {
 .p-section {
   color: var(--white);
 }
+
+.image {
+  padding-bottom: 10px;
+}
+
+footer {
+  padding: 15px 0;
+  text-align: center;
+  background-color: var(--dark-gray);
+  color: var(--yellow);
+}
