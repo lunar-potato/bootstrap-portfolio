@@ -99,7 +99,7 @@ section {
 }
 
 .skill-con {
-  padding: 50px;
+  padding: 30px;
 }
 
 .cardContainer {
@@ -121,7 +121,6 @@ section {
   justify-content: center;
 }
 
-
 #list-example {
   background-color: var(--dark-gray);
 }
@@ -131,5 +130,9 @@ section {
 }
 
 .scrollspy-example p {
+  color: var(--white);
+}
+
+.p-section {
   color: var(--white);
 }
