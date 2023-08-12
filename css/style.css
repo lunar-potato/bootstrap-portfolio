@@ -1,6 +1,7 @@
 :root {
   --yellow: #e5c890;
   --white: #fff;
+  --dark-gray: #232634;
 }
 
 html,
@@ -67,7 +68,7 @@ section {
 }
 
 .hero-banner h1 {
-    color: #e5c890;
+    color: var(--yellow);
     font-size: 72px;
     text-align: center;
 }
@@ -79,7 +80,7 @@ section {
 }
 
 .navbar {
-    background-color: #232634 !important;
+    background-color: var(--dark-gray) !important;
     border-bottom: var(--white) 3px solid;
 }
 
@@ -97,6 +98,10 @@ section {
   
 }
 
+.skill-con {
+  padding: 50px;
+}
+
 .cardContainer {
   text-align: center;
   padding-top: 30px;
@@ -104,10 +109,27 @@ section {
 }
 
 .card-body {
-  background-color: #232634;
+  background-color: var(--dark-gray);
 }
 
 .card-body p {
   color: var(--white);
 }
 
+.skills {
+  padding: 0px 30px 30px 30px;
+  justify-content: center;
+}
+
+
+#list-example {
+  background-color: var(--dark-gray);
+}
+
+.scrollspy-example h4 {
+  color: var(--yellow);
+}
+
+.scrollspy-example p {
+  color: var(--white);
+}
