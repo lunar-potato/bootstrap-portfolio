@@ -1,3 +1,8 @@
+:root {
+  --yellow: #e5c890;
+  --white: #fff;
+}
+
 html,
 body {
   width: 100%;
@@ -10,13 +15,13 @@ body {
 }
 
 a {
-  color: #e5c890;
+  color: var(--yellow);
   transition: all 0.35s;
 }
 
 a:hover,
 a:focus {
-  color: #e5c890;
+  color: var(--yellow);
 }
 
 hr {
@@ -27,7 +32,7 @@ hr {
 }
 
 hr.light {
-  border-color: white;
+  border-color: var(--white);
 }
 
 h1,
@@ -68,12 +73,29 @@ section {
 }
 
 .hero-banner p {
-    color: white;
+    color: var(--white);
     font-size: 32px;
     text-align: center;
 }
 
 .navbar {
     background-color: #232634 !important;
-    border-bottom: white 3px solid;
+    border-bottom: var(--white) 3px solid;
+}
+
+.sectionHeading {
+  text-align: center;
+  color: var(--yellow);
+}
+
+.content {
+  padding: 50px;
+}
+
+.portfolioWorks {
+  padding: 0px 30px 30px 30px;
+}
+
+.cardContainer {
+  text-align: center;
 }
