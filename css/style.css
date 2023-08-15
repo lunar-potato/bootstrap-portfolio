@@ -86,11 +86,16 @@ section {
     border-bottom: var(--white) 3px solid;
 }
 
-.navbar .icons a:hover {
-  color: rgba(255, 255, 255, 0.5);
+.navbar-brand {
+  color: var(--yellow);
 }
+
 .navbar .icons a:active {
-  color: #fff;
+  color: var(--yellow);
+}
+
+.navbar .icons a:hover {
+  color: var(--white);
 }
 
 /* Work Portfolio Section  */
@@ -108,8 +113,12 @@ section {
   
 }
 
-.skill-con {
-  padding: 30px;
+.card-title a:hover {
+  color: var(--white);
+}
+
+.card-title a:active {
+  color: var(--yellow);
 }
 
 .cardContainer {
@@ -135,6 +144,10 @@ section {
 .description {
   height: 250px;
   overflow-y: scroll;
+}
+
+.skill-con {
+  padding: 30px;
 }
 
 .scrollspy-example h4 {
@@ -208,7 +221,7 @@ section {
   color: rgba(255, 255, 255, 0.5);
 }
 .contact-section .social a:active {
-  color: #fff;
+  color: var(--yellow);
 }
 
 .bg-black {
