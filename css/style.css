@@ -57,6 +57,7 @@ section {
   padding: 100px 0;
 }
 
+/* Hero Banner  */
 .hero-banner {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/moon-background.jpg);
     background-size: cover;
@@ -79,11 +80,20 @@ section {
     text-align: center;
 }
 
+/* Navigation Styling */
 .navbar {
     background-color: var(--dark-gray) !important;
     border-bottom: var(--white) 3px solid;
 }
 
+.navbar .icons a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.navbar .icons a:active {
+  color: #fff;
+}
+
+/* Work Portfolio Section  */
 .sectionHeading {
   text-align: center;
   color: var(--yellow);
@@ -116,13 +126,15 @@ section {
   color: var(--white);
 }
 
+/* Skills Section */
 .skills {
   padding: 0px 30px 30px 30px;
   justify-content: center;
 }
 
-#list-example {
-  background-color: var(--dark-gray);
+.description {
+  height: 250px;
+  overflow-y: scroll;
 }
 
 .scrollspy-example h4 {
@@ -137,10 +149,12 @@ section {
   color: var(--white);
 }
 
+/* About Me Section */
 .image {
   padding-bottom: 10px;
 }
 
+/* Contact Socials Section  */
 .contact-me {
   padding: 10rem 0;
   background: linear-gradient(
@@ -189,6 +203,7 @@ section {
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
 }
+
 .contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -200,6 +215,7 @@ section {
   background-color: #000000 !important;
 }
 
+/* Footer Section */
 footer {
   padding: 15px 0;
   text-align: center;
